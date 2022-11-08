@@ -1,0 +1,23 @@
+{
+  "name": "@web/jquery",
+  "version": "0.1.0",
+  "description": "jquery extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerthayn/jquery.git"
+  },
+  "keywords": [
+    "web",
+    "jquery"
+  ],
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerthayn/jquery/issues"
+  },
+  "homepage": "https://github.com/tylerthayn/jquery#readme"
+}
