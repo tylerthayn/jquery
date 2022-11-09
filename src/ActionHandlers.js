@@ -2,16 +2,24 @@
 $.extend({
 	ActionHandlers: {
 		Hide: function (effect, cb = () => {}) {
-			$(this).hide(effect, () => {
-				$(this).triggerHandler('hidden')
+			if (this.style.display != 'none') {
+				$(this).hide(effect, () => {
+					$(this).triggerHandler('hidden')
+					cb()
+				})
+			} else {
 				cb()
-			})
+			}
 		},
 		Show: function (effect, cb = () => {}) {
-			$(this).show(effect, () => {
-				$(this).triggerHandler('shown')
+			if (this.style.display == 'none') {
+				$(this).show(effect, () => {
+					$(this).triggerHandler('shown')
+					cb()
+				})
+			} else {
 				cb()
-			})
+			}
 		},
 		Toggle: function (effect, cb = () => {}) {
 			$(this).toggle(effect, () => {

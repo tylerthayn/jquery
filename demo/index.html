@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>@web/jquery</title>
+		<script src="../node_modules/requirejs/require.js"></script>
+		<script>
+requirejs.config({
+	paths: {
+		jquery: '../node_modules/jquery/dist/jquery',
+		'@web/jquery': '../index'
+	}
+})
+
+require(['@web/jquery'], ($) => {
+
+
+})
+</script>
+
+	</head>
+	<body>
+		<div class="Test" style="width:300px;height:300px;border:1px solid black;"></div>
+	</body>
+</html>

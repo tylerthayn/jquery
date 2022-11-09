@@ -1,6 +1,3 @@
-
-let dataFn = $.fn.data
-
 /** data-change event
 * @event jQuery#data-change
 * @type {object}
@@ -38,25 +35,7 @@ $.fn.extend({
 				})
 			})
 		}
-	},
-	/** Data
-	* @fires jQuery#data-change
-	*/
-	data: function (key, value) {
-		if (typeof key === 'undefined') {
-			return dataFn.call($(this[0]))
-		}
-		if (typeof key === 'string' && typeof value === 'undefined') {
-			return dataFn.call($(this[0]), key)
-		}
-		let ret = dataFn.call(this, key, value)
-		if (typeof key === 'object') {
-			this.triggerHandler('data-change', key)
-		} else if (typeof value !== 'undefined') {
-			let d = {}
-			d[key] = value
-			this.triggerHandler('data-change', d)
-		}
-		return ret
 	}
+
 })
+

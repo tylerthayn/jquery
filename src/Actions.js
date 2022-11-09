@@ -3,6 +3,7 @@
 * @callback ActionHandler
 * @param {Event} event
 * @param {...*} [args]
+* @param {Function} [cb]
 */
 $.fn.extend({
 
