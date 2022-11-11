@@ -8,12 +8,17 @@
 requirejs.config({
 	paths: {
 		jquery: '../node_modules/jquery/dist/jquery',
-		'@web/jquery': '../index'
+		'@tyler.thayn/jquery': '../index'
 	}
 })
 
-require(['@web/jquery'], ($) => {
+require(['@tyler.thayn/jquery'], ($) => {
 
+	$('.Junk').remove()
+
+	$('.Test').Property('name', console.log)
+	$('.Test').Property('name', 'tyler')
+	$('.Test').attr('data-name', '!tyler')
 
 })
 </script>
@@ -21,5 +26,15 @@ require(['@web/jquery'], ($) => {
 	</head>
 	<body>
 		<div class="Test" style="width:300px;height:300px;border:1px solid black;"></div>
+
+		<!-- Comment -->
+		<div class="Junk"></div>
+		<!-- Comment -->
+
+		<div class="Template">
+			<div class="TemplateVariable" data-name="var1" data-default="var1"></div>
+			<div class="TemplateVariable" data-name="var2" data-default="var2"></div>
+		</div>
+
 	</body>
 </html>

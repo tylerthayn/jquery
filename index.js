@@ -1,6 +1,6 @@
+console.log(document.currentScript)
 define(['jquery'], ($) => {
 
-	
 	$.extend({
 		ActionHandlers: {
 			Hide: function (effect, cb = () => {}) {
@@ -31,9 +31,8 @@ define(['jquery'], ($) => {
 			}
 		}
 	})
-	
 
-	
+
 	/** ActionHandler Callback
 	* @callback ActionHandler
 	* @param {Event} event
@@ -41,7 +40,7 @@ define(['jquery'], ($) => {
 	* @param {Function} [cb]
 	*/
 	$.fn.extend({
-	
+
 		/** Trigger Action for element
 		* @memberof jQuery#
 		* @function Action
@@ -53,7 +52,7 @@ define(['jquery'], ($) => {
 				$(e).triggerHandler('action.'+name, args)
 			})
 		},
-	
+
 		/** Register ActionHandler for element
 		* @memberof jQuery#
 		* @function ActionHandler
@@ -68,18 +67,17 @@ define(['jquery'], ($) => {
 			})
 		}
 	})
-	
 
-	
+
 	let dataFn = $.fn.data
-	
+
 	/** data-change event
 	* @event jQuery#data-change
 	* @type {object}
 	* @property {string} name - data property name that changed
 	*/
 	$.fn.extend({
-	
+
 		/** Data
 		* @fires jQuery#data-change
 		*/
@@ -101,8 +99,7 @@ define(['jquery'], ($) => {
 			return ret
 		}
 	})
-	
-	
+
 
 	/** Height - gets or sets the height of an element
 	* @memberof jQuery.
@@ -116,7 +113,7 @@ define(['jquery'], ($) => {
 			return $.Value(e, 'height', v)
 		}
 	})
-	
+
 	/** Height - gets or sets the height of an element
 	* @memberof jQuery#
 	* @function Height
@@ -128,12 +125,11 @@ define(['jquery'], ($) => {
 			return $.Height(this, v)
 		}
 	})
-	
-	
-	
 
-	
-	
+
+
+
+
 	function ObserveData (element) {
 		let observer = new MutationObserver(function(mutations) {
 			mutations.forEach(function(mutationRecord) {
@@ -146,8 +142,8 @@ define(['jquery'], ($) => {
 		})
 		observer.observe(element, {attributeOldValue: true, attributes : true})
 	}
-	
-	
+
+
 	/** data-change event
 	* @event jQuery#data-change
 	* @type {object}
@@ -187,33 +183,31 @@ define(['jquery'], ($) => {
 				})
 			}
 		}
-	
-	})
-	
-	
 
-	
+	})
+
+
+
 	let _remove = $.fn.remove
-	
+
 	$.fn.extend({
 		remove: function (...args) {
 			$(this).each((i, e) => {
-				while(Type(e.previousSibling, 'Text')) {e.previousSibling.remove()}
-				if (Type(e.previousSibling, 'Comment')) {e.previousSibling.remove()}
-				while(Type(e.nextSibling, 'Text')) {e.nextSibling.remove()}
-				if (Type(e.nextSibling, 'Comment')) {e.nextSibling.remove()}
-				_remove.call(e, ...args)
+				while(Object.prototype.toString.call(e.previousSibling) == '[object Text]') {e.previousSibling.remove()}
+				if (Object.prototype.toString.call(e.previousSibling) == '[object Comment]') {e.previousSibling.remove()}
+				while(Object.prototype.toString.call(e.nextSibling) == '[object Text]') {e.nextSibling.remove()}
+				if (Object.prototype.toString.call(e.nextSibling) == '[object Comment]') {e.nextSibling.remove()}
+				_remove.call($(e), ...args)
 			})
 		}
 	})
-	
 
-	
+
 	$.fn.extend({
 		Clear: function () {
 			$(this).each((i, e) => {
 				$(e).find('.TemplateVariable').each((ii, ee) => {
-					$(ee).data('value', $(ee).data('default'))
+					$(ee).text($(ee).data('default'))
 				})
 			})
 		},
@@ -221,7 +215,7 @@ define(['jquery'], ($) => {
 			if (Array.isArray(name)) {
 				return name.map(n => $(this).Get(n))
 			} else {
-				return $(this).find(`.TemplateVariable[data-name="${name}"]`).data('value')
+				return $(this).find(`.TemplateVariable[data-name="${name}"]`).text()
 			}
 		},
 		Set: function (name, value) {
@@ -231,16 +225,15 @@ define(['jquery'], ($) => {
 				})
 			} else {
 				$(this).each((i, e) => {
-					$(e).find(`.TemplateVariable[data-name="${name}"]`).data('value', value)
+					$(e).find(`.TemplateVariable[data-name="${name}"]`).text(value)
 				})
 			}
 		},
 		Variables: function () {
 			return $(this).find('.TemplateVariable').map((i, e) => $(e).data('name')).toArray()
 		}
-	
+
 	})
-	
 
 	/** Value
 	* @memberof jQuery.
@@ -269,7 +262,7 @@ define(['jquery'], ($) => {
 			}
 		}
 	})
-	
+
 	/** Value
 	* @memberof jQuery#
 	* @function Value
@@ -282,7 +275,6 @@ define(['jquery'], ($) => {
 			return $.Value(this, name, v)
 		}
 	})
-	
 
 	/** ValueOf
 	* @memberof jQuery.
@@ -295,8 +287,7 @@ define(['jquery'], ($) => {
 			return parseFloat(v.replace(/px$/, ''))
 		}
 	})
-	
-	
+
 
 	/** Width - gets or sets the width of an element
 	* @memberof jQuery.
@@ -310,7 +301,7 @@ define(['jquery'], ($) => {
 			return $.Value(e, 'width', v)
 		}
 	})
-	
+
 	/** Width - gets or sets the width of an element
 	* @memberof jQuery#
 	* @function Width
@@ -322,9 +313,6 @@ define(['jquery'], ($) => {
 			return $.Width(this, v)
 		}
 	})
-	
 
 	return $
-
 })
-

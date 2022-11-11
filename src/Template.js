@@ -3,7 +3,7 @@ $.fn.extend({
 	Clear: function () {
 		$(this).each((i, e) => {
 			$(e).find('.TemplateVariable').each((ii, ee) => {
-				$(ee).data('value', $(ee).data('default'))
+				$(ee).text($(ee).data('default'))
 			})
 		})
 	},
@@ -11,7 +11,7 @@ $.fn.extend({
 		if (Array.isArray(name)) {
 			return name.map(n => $(this).Get(n))
 		} else {
-			return $(this).find(`.TemplateVariable[data-name="${name}"]`).data('value')
+			return $(this).find(`.TemplateVariable[data-name="${name}"]`).text()
 		}
 	},
 	Set: function (name, value) {
@@ -21,7 +21,7 @@ $.fn.extend({
 			})
 		} else {
 			$(this).each((i, e) => {
-				$(e).find(`.TemplateVariable[data-name="${name}"]`).data('value', value)
+				$(e).find(`.TemplateVariable[data-name="${name}"]`).text(value)
 			})
 		}
 	},
