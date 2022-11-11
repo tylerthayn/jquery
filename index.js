@@ -1,6 +1,6 @@
 define(['jquery'], ($) => {
 
-
+	
 	$.extend({
 		ActionHandlers: {
 			Hide: function (effect, cb = () => {}) {
@@ -33,7 +33,7 @@ define(['jquery'], ($) => {
 	})
 	
 
-
+	
 	/** ActionHandler Callback
 	* @callback ActionHandler
 	* @param {Event} event
@@ -70,7 +70,7 @@ define(['jquery'], ($) => {
 	})
 	
 
-
+	
 	let dataFn = $.fn.data
 	
 	/** data-change event
@@ -104,7 +104,7 @@ define(['jquery'], ($) => {
 	
 	
 
-/** Height - gets or sets the height of an element
+	/** Height - gets or sets the height of an element
 	* @memberof jQuery.
 	* @function Height
 	* @param {Element|jQuery} element
@@ -132,7 +132,7 @@ define(['jquery'], ($) => {
 	
 	
 
-
+	
 	
 	function ObserveData (element) {
 		let observer = new MutationObserver(function(mutations) {
@@ -192,7 +192,7 @@ define(['jquery'], ($) => {
 	
 	
 
-
+	
 	let _remove = $.fn.remove
 	
 	$.fn.extend({
@@ -208,7 +208,7 @@ define(['jquery'], ($) => {
 	})
 	
 
-
+	
 	$.fn.extend({
 		Clear: function () {
 			$(this).each((i, e) => {
@@ -242,7 +242,7 @@ define(['jquery'], ($) => {
 	})
 	
 
-/** Value
+	/** Value
 	* @memberof jQuery.
 	* @function Value
 	* @param {Element|jQuery} e
@@ -284,7 +284,7 @@ define(['jquery'], ($) => {
 	})
 	
 
-/** ValueOf
+	/** ValueOf
 	* @memberof jQuery.
 	* @function ValueOf
 	* @param {string} value - css property value
@@ -298,7 +298,7 @@ define(['jquery'], ($) => {
 	
 	
 
-/** Width - gets or sets the width of an element
+	/** Width - gets or sets the width of an element
 	* @memberof jQuery.
 	* @function Width
 	* @param {Element|jQuery} element
@@ -327,4 +327,4 @@ define(['jquery'], ($) => {
 	return $
 
 })
-
+

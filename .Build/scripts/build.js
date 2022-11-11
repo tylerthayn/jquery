@@ -7,10 +7,10 @@ let output = []
 
 $fs.readdirSync('./src').forEach(entry => {
 	if (entry.endsWith('.js')) {
-		output.push($fs.readFileSync('./src/'+entry, 'utf-8').replace(/\n/g, '\n\t'))
+		output.push('\t'+$fs.readFileSync('./src/'+entry, 'utf-8').replace(/\n/g, '\n\t'))
 	}
 })
 
 
-$fs.writeFileSync('./index.js', pre + output.join('\n\r\n\r') + post, 'utf-8')
+$fs.writeFileSync('./index.js', pre + output.join('\n\r\n\r') + post + '\n', 'utf-8')
 
