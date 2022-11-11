@@ -4,7 +4,8 @@
   "description": "jquery extensions",
   "main": "index.js",
   "scripts": {
-    "build": "node .Build/scripts/build.js"
+    "build": "node .Build/scripts/build.js",
+	"preinstall": "npm run-script build"
   },
   "repository": {
     "type": "git",
