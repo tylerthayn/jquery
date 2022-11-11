@@ -1,3 +1,19 @@
+
+
+function ObserveData (element) {
+	let observer = new MutationObserver(function(mutations) {
+		mutations.forEach(function(mutationRecord) {
+			if (mutationRecord.type == 'attributes' && mutationRecord.attributeName.startsWith('data-')) {
+				let data = {}
+				data[mutationRecord.attributeName.split('-')[1]] = $(element).attr(mutationRecord.attributeName)
+				$(element).triggerHandler('data-change', data)
+			}
+		})
+	})
+	observer.observe(element, {attributeOldValue: true, attributes : true})
+}
+
+
 /** data-change event
 * @event jQuery#data-change
 * @type {object}
@@ -17,6 +33,7 @@ $.fn.extend({
 				return this.data(name)
 			} else if (value instanceof Function) {
 				this.each((i, e) => {
+					ObserveData(e)
 					$(e).on('data-change', (event, data) => {
 						if (Reflect.has(data, name)) {
 							value.call(this, data[name], name)

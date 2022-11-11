@@ -1,8 +1,8 @@
 let $fs = require('fs-extra')
 let $path = require('path')
 
-let pre = `define(['jquery'], ($) => {\n\n`
-let post = `\n\n\treturn $\n\n})`
+let pre = `define(['jquery'], ($) => {\n\r\n\r`
+let post = `\n\r\n\r\treturn $\n\r\n\r})\n\r`
 let output = []
 
 $fs.readdirSync('./src').forEach(entry => {
@@ -12,5 +12,5 @@ $fs.readdirSync('./src').forEach(entry => {
 })
 
 
-$fs.writeFileSync('./index.js', pre + output.join('\n\n') + post, 'utf-8')
+$fs.writeFileSync('./index.js', pre + output.join('\n\r\n\r') + post, 'utf-8')
 
