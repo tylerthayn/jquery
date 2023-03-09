@@ -1,12 +1,8 @@
 {
   "name": "@tyler.thayn/jquery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jquery extensions",
-  "main": "index.js",
-  "scripts": {
-    "build": "node .Build/scripts/build.js",
-	"preinstall": "npm run-script build"
-  },
+  "main": "jQuery.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tylerthayn/jquery.git"
@@ -22,7 +18,12 @@
   },
   "homepage": "https://github.com/tylerthayn/jquery#readme",
   "devDependencies": {
+    "grunt-jsdoc": "^2.4.1",
     "jquery": "^3.6.1",
     "requirejs": "^2.3.6"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "sanitize-html": "^2.8.1"
   }
 }

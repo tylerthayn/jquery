@@ -1,0 +1,1522 @@
+[
+    {
+        "comment": "/**\r\n\t* @memberof jQuery.\r\n\t* @static\r\n\t* @member {object} ActionHandlers\r\n\t*/",
+        "meta": {
+            "filename": "ActionHandlers.js",
+            "lineno": 4,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "memberof": "jQuery",
+        "scope": "static",
+        "kind": "member",
+        "name": "ActionHandlers",
+        "type": {
+            "names": [
+                "object"
+            ]
+        },
+        "longname": "jQuery.ActionHandlers"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                98,
+                1307
+            ],
+            "filename": "ActionHandlers.js",
+            "lineno": 9,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000008",
+                "name": "ActionHandlers",
+                "type": "ObjectExpression",
+                "value": "{\"Hide\":\"\",\"Show\":\"\",\"Toggle\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "ActionHandlers",
+        "longname": "ActionHandlers",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\r\n\t\t* @memberof jQuery.ActionHandlers.\r\n\t\t* @function Hide\r\n\t\t* @param {string|object} effect @see https://api.jqueryui.com/effect/#effect-options\r\n\t\t* @param {function} cb\r\n\t\t*/",
+        "meta": {
+            "filename": "ActionHandlers.js",
+            "lineno": 11,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "memberof": "jQuery.ActionHandlers",
+        "kind": "function",
+        "name": "Hide",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "object"
+                    ]
+                },
+                "description": "@see https://api.jqueryui.com/effect/#effect-options",
+                "name": "effect"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "cb"
+            }
+        ],
+        "longname": "jQuery.ActionHandlers.Hide",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                306,
+                512
+            ],
+            "filename": "ActionHandlers.js",
+            "lineno": 17,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Hide",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Hide",
+        "longname": "ActionHandlers.Hide",
+        "kind": "function",
+        "memberof": "ActionHandlers",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\r\n\t\t* @memberof jQuery.ActionHandlers.\r\n\t\t* @function Show\r\n\t\t* @param {string|object} effect @see https://api.jqueryui.com/effect/#effect-options\r\n\t\t* @param {function} cb\r\n\t\t*/",
+        "meta": {
+            "filename": "ActionHandlers.js",
+            "lineno": 28,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "memberof": "jQuery.ActionHandlers",
+        "kind": "function",
+        "name": "Show",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "object"
+                    ]
+                },
+                "description": "@see https://api.jqueryui.com/effect/#effect-options",
+                "name": "effect"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "cb"
+            }
+        ],
+        "longname": "jQuery.ActionHandlers.Show",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                704,
+                909
+            ],
+            "filename": "ActionHandlers.js",
+            "lineno": 34,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000052",
+                "name": "Show",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Show",
+        "longname": "ActionHandlers.Show",
+        "kind": "function",
+        "memberof": "ActionHandlers",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\r\n\t\t* @memberof jQuery.ActionHandlers.\r\n\t\t* @function Toggle\r\n\t\t* @param {string|object} effect @see https://api.jqueryui.com/effect/#effect-options\r\n\t\t* @param {function} cb\r\n\t\t*/",
+        "meta": {
+            "filename": "ActionHandlers.js",
+            "lineno": 45,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "memberof": "jQuery.ActionHandlers",
+        "kind": "function",
+        "name": "Toggle",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "object"
+                    ]
+                },
+                "description": "@see https://api.jqueryui.com/effect/#effect-options",
+                "name": "effect"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "cb"
+            }
+        ],
+        "longname": "jQuery.ActionHandlers.Toggle",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1103,
+                1303
+            ],
+            "filename": "ActionHandlers.js",
+            "lineno": 51,
+            "columnno": 2,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000094",
+                "name": "Toggle",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Toggle",
+        "longname": "ActionHandlers.Toggle",
+        "kind": "function",
+        "memberof": "ActionHandlers",
+        "scope": "static"
+    },
+    {
+        "comment": "/** ActionHandler Callback\r\n* @callback ActionHandler\r\n* @param {Event} event\r\n* @param {...*} [args]\r\n* @param {Function} [cb]\r\n*/",
+        "meta": {
+            "filename": "Actions.js",
+            "lineno": 2,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "ActionHandler Callback",
+        "kind": "typedef",
+        "name": "ActionHandler",
+        "type": {
+            "names": [
+                "function"
+            ]
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Event"
+                    ]
+                },
+                "name": "event"
+            },
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "optional": true,
+                "variable": true,
+                "name": "args"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "optional": true,
+                "name": "cb"
+            }
+        ],
+        "longname": "ActionHandler",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Trigger Action for element\r\n\t* @memberof jQuery#\r\n\t* @function Action\r\n\t* @param {string} name - Name of action to trigger\r\n\t* @param {...*} [args] - Args to pass to action handler\r\n\t*/",
+        "meta": {
+            "filename": "Actions.js",
+            "lineno": 10,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Trigger Action for element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Action",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "Name of action to trigger",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "optional": true,
+                "variable": true,
+                "description": "Args to pass to action handler",
+                "name": "args"
+            }
+        ],
+        "longname": "jQuery#Action",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                345,
+                460
+            ],
+            "filename": "Actions.js",
+            "lineno": 16,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000148",
+                "name": "Action",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Action",
+        "longname": "Action",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Register ActionHandler for element\r\n\t* @memberof jQuery#\r\n\t* @function ActionHandler\r\n\t* @param {string} name - Action name to handle\r\n\t* @param {ActionHandler} fn - Handler function\r\n\t*/",
+        "meta": {
+            "filename": "Actions.js",
+            "lineno": 22,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Register ActionHandler for element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "ActionHandler",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "Action name to handle",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "ActionHandler"
+                    ]
+                },
+                "description": "Handler function",
+                "name": "fn"
+            }
+        ],
+        "longname": "jQuery#ActionHandler",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                660,
+                829
+            ],
+            "filename": "Actions.js",
+            "lineno": 28,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000174",
+                "name": "ActionHandler",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "ActionHandler",
+        "longname": "ActionHandler",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                751,
+                763
+            ],
+            "filename": "Actions.js",
+            "lineno": 30,
+            "columnno": 28,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000199",
+                "name": "action",
+                "type": "Identifier",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "action",
+        "longname": "action",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6,
+                24
+            ],
+            "filename": "Data.js",
+            "lineno": 2,
+            "columnno": 4,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000217",
+                "name": "dataFn",
+                "type": "MemberExpression",
+                "value": "$.fn.data"
+            }
+        },
+        "undocumented": true,
+        "name": "dataFn",
+        "longname": "dataFn",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/** data-change event\r\n* @event jQuery#data-change\r\n* @type {object}\r\n* @property {string} name - data property name that changed\r\n*/",
+        "meta": {
+            "filename": "Data.js",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "data-change event",
+        "kind": "event",
+        "name": "data-change",
+        "type": {
+            "names": [
+                "object"
+            ]
+        },
+        "properties": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "data property name that changed",
+                "name": "name"
+            }
+        ],
+        "memberof": "jQuery",
+        "longname": "jQuery#event:data-change",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** Data\r\n\t* @memberof jQuery#\r\n\t* @fires jQuery#data-change\r\n\t*/",
+        "meta": {
+            "range": [
+                249,
+                718
+            ],
+            "filename": "Data.js",
+            "lineno": 15,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000232",
+                "name": "data",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "ret": "jQuery#data~ret",
+                "d": "jQuery#data~d",
+                "d[undefined]": "jQuery#data~d.undefined]"
+            }
+        },
+        "description": "Data",
+        "memberof": "jQuery",
+        "fires": [
+            "jQuery#event:data-change"
+        ],
+        "name": "data",
+        "longname": "jQuery#data",
+        "kind": "function",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                474,
+                509
+            ],
+            "filename": "Data.js",
+            "lineno": 22,
+            "columnno": 6,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000276",
+                "name": "ret",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "ret",
+        "longname": "jQuery#data~ret",
+        "kind": "member",
+        "memberof": "jQuery#data",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                635,
+                641
+            ],
+            "filename": "Data.js",
+            "lineno": 26,
+            "columnno": 7,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000305",
+                "name": "d",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "d",
+        "longname": "jQuery#data~d",
+        "kind": "member",
+        "memberof": "jQuery#data",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                646,
+                660
+            ],
+            "filename": "Data.js",
+            "lineno": 27,
+            "columnno": 3,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000309",
+                "name": "d[undefined]",
+                "type": "Identifier",
+                "funcscope": "jQuery#data",
+                "value": "value",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "jQuery#data~d.undefined]",
+        "kind": "member",
+        "memberof": "jQuery#data~d",
+        "scope": "static"
+    },
+    {
+        "comment": "/** Height - gets or sets the height of an element\r\n* @memberof jQuery.\r\n* @function Height\r\n* @param {Element|jQuery} element\r\n* @param {number} [height]\r\n* @returns {Element|jQuery|number}\r\n*/",
+        "meta": {
+            "filename": "Height.js",
+            "lineno": 1,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Height - gets or sets the height of an element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Height",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery"
+                    ]
+                },
+                "name": "element"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "optional": true,
+                "name": "height"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery",
+                        "number"
+                    ]
+                }
+            }
+        ],
+        "longname": "jQuery.Height",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                209,
+                272
+            ],
+            "filename": "Height.js",
+            "lineno": 9,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000331",
+                "name": "Height",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Height",
+        "longname": "Height",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Height - gets or sets the height of an element\r\n* @memberof jQuery#\r\n* @function Height\r\n* @param {number} [height]\r\n* @returns {Element|jQuery|number}\r\n*/",
+        "meta": {
+            "filename": "Height.js",
+            "lineno": 14,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Height - gets or sets the height of an element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Height",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "optional": true,
+                "name": "height"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery",
+                        "number"
+                    ]
+                }
+            }
+        ],
+        "longname": "jQuery#Height",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                457,
+                511
+            ],
+            "filename": "Height.js",
+            "lineno": 21,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000352",
+                "name": "Height",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Height",
+        "longname": "Height",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\r\n* @class jQuery\r\n*/",
+        "meta": {
+            "filename": "index.js",
+            "lineno": 1,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "jQuery",
+        "longname": "jQuery",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4,
+                510
+            ],
+            "filename": "Properties.js",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000367",
+                "name": "ObserveData",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "element"
+                ]
+            },
+            "vars": {
+                "observer": "ObserveData~observer",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "ObserveData",
+        "longname": "ObserveData",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                43,
+                433
+            ],
+            "filename": "Properties.js",
+            "lineno": 4,
+            "columnno": 5,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000372",
+                "name": "observer",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "observer",
+        "longname": "ObserveData~observer",
+        "kind": "member",
+        "memberof": "ObserveData",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                253,
+                262
+            ],
+            "filename": "Properties.js",
+            "lineno": 7,
+            "columnno": 8,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000403",
+                "name": "data",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                268,
+                364
+            ],
+            "filename": "Properties.js",
+            "lineno": 8,
+            "columnno": 4,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000407",
+                "name": "data[undefined]",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~data.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~data",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                463,
+                486
+            ],
+            "filename": "Properties.js",
+            "lineno": 13,
+            "columnno": 28,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000444",
+                "name": "attributeOldValue",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "attributeOldValue",
+        "longname": "attributeOldValue",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                488,
+                505
+            ],
+            "filename": "Properties.js",
+            "lineno": 13,
+            "columnno": 53,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000446",
+                "name": "attributes",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "attributes",
+        "longname": "attributes",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/** data-change event\r\n* @event jQuery#data-change\r\n* @type {object}\r\n* @property {string} name - data property name that changed\r\n*/",
+        "meta": {
+            "filename": "Properties.js",
+            "lineno": 17,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "data-change event",
+        "kind": "event",
+        "name": "data-change",
+        "type": {
+            "names": [
+                "object"
+            ]
+        },
+        "properties": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "data property name that changed",
+                "name": "name"
+            }
+        ],
+        "memberof": "jQuery",
+        "longname": "jQuery#event:data-change",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** Gets or Sets Element property\r\n\t* @memberof jQuery#\r\n\t* @function Property\r\n\t* @param {string|object} name - Property name or object of properties\r\n\t* @param {*|function} [value] - Property value.  If function, it is added as listener\r\n\t* @returns {*} [value] - Property value\r\n\t*/",
+        "meta": {
+            "filename": "Properties.js",
+            "lineno": 23,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Gets or Sets Element property",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Property",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "object"
+                    ]
+                },
+                "description": "Property name or object of properties",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "*",
+                        "function"
+                    ]
+                },
+                "optional": true,
+                "description": "Property value.  If function, it is added as listener",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "description": "[value] - Property value"
+            }
+        ],
+        "longname": "jQuery#Property",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                955,
+                1586
+            ],
+            "filename": "Properties.js",
+            "lineno": 30,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000456",
+                "name": "Property",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Property",
+        "longname": "Property",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6,
+                27
+            ],
+            "filename": "Remove.js",
+            "lineno": 2,
+            "columnno": 4,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000587",
+                "name": "_remove",
+                "type": "MemberExpression",
+                "value": "$.fn.remove"
+            }
+        },
+        "undocumented": true,
+        "name": "_remove",
+        "longname": "_remove",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                47,
+                567
+            ],
+            "filename": "Remove.js",
+            "lineno": 5,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000602",
+                "name": "remove",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "remove",
+        "longname": "remove",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                18,
+                176
+            ],
+            "filename": "Template.js",
+            "lineno": 3,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000726",
+                "name": "Clear",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Clear",
+        "longname": "Clear",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                180,
+                367
+            ],
+            "filename": "Template.js",
+            "lineno": 10,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000769",
+                "name": "Get",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Get",
+        "longname": "Get",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                371,
+                640
+            ],
+            "filename": "Template.js",
+            "lineno": 17,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000809",
+                "name": "Set",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Set",
+        "longname": "Set",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                644,
+                759
+            ],
+            "filename": "Template.js",
+            "lineno": 28,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000870",
+                "name": "Variables",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Variables",
+        "longname": "Variables",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Value\r\n* @memberof jQuery.\r\n* @function Value\r\n* @param {Element|jQuery} e\r\n* @param {string} name - css property name\r\n* @param {*} [value] - css property value\r\n* @returns {*} value - css property value or the element\r\n*/",
+        "meta": {
+            "filename": "Value.js",
+            "lineno": 1,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Value",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Value",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery"
+                    ]
+                },
+                "name": "e"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "css property name",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "optional": true,
+                "description": "css property value",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "description": "value - css property value or the element"
+            }
+        ],
+        "longname": "jQuery.Value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                242,
+                646
+            ],
+            "filename": "Value.js",
+            "lineno": 10,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100000905",
+                "name": "Value",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Value",
+        "longname": "Value",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Value\r\n* @memberof jQuery#\r\n* @function Value\r\n* @param {string} name - css property name\r\n* @param {*} [value] - css property value\r\n* @returns {*} value - css property value or the element\r\n*/",
+        "meta": {
+            "filename": "Value.js",
+            "lineno": 29,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Value",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Value",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "css property name",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "optional": true,
+                "description": "css property value",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "*"
+                    ]
+                },
+                "description": "value - css property value or the element"
+            }
+        ],
+        "longname": "jQuery#Value",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                870,
+                934
+            ],
+            "filename": "Value.js",
+            "lineno": 37,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100001003",
+                "name": "Value",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Value",
+        "longname": "Value",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** ValueOf\r\n* @memberof jQuery.\r\n* @function ValueOf\r\n* @param {string} value - css property value\r\n* @returns {float} value - css property value as float\r\n*/",
+        "meta": {
+            "filename": "ValueOf.js",
+            "lineno": 1,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "ValueOf",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "ValueOf",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "css property value",
+                "name": "value"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "float"
+                    ]
+                },
+                "description": "value - css property value as float"
+            }
+        ],
+        "longname": "jQuery.ValueOf",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                174,
+                244
+            ],
+            "filename": "ValueOf.js",
+            "lineno": 8,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100001024",
+                "name": "ValueOf",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "ValueOf",
+        "longname": "ValueOf",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Width - gets or sets the width of an element\r\n* @memberof jQuery.\r\n* @function Width\r\n* @param {Element|jQuery} element\r\n* @param {number} [width]\r\n* @returns {Element|jQuery|number}\r\n*/",
+        "meta": {
+            "filename": "Width.js",
+            "lineno": 1,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Width - gets or sets the width of an element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Width",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery"
+                    ]
+                },
+                "name": "element"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "optional": true,
+                "name": "width"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery",
+                        "number"
+                    ]
+                }
+            }
+        ],
+        "longname": "jQuery.Width",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                205,
+                272
+            ],
+            "filename": "Width.js",
+            "lineno": 9,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100001045",
+                "name": "Width",
+                "type": "FunctionExpression",
+                "value": "Width"
+            }
+        },
+        "undocumented": true,
+        "name": "Width",
+        "longname": "Width",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/** Width - gets or sets the width of an element\r\n* @memberof jQuery#\r\n* @function Width\r\n* @param {number} [width]\r\n* @returns {Element|jQuery|number}\r\n*/",
+        "meta": {
+            "filename": "Width.js",
+            "lineno": 14,
+            "columnno": 0,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {}
+        },
+        "description": "Width - gets or sets the width of an element",
+        "memberof": "jQuery",
+        "kind": "function",
+        "name": "Width",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "optional": true,
+                "name": "width"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Element",
+                        "jQuery",
+                        "number"
+                    ]
+                }
+            }
+        ],
+        "longname": "jQuery#Width",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                453,
+                505
+            ],
+            "filename": "Width.js",
+            "lineno": 21,
+            "columnno": 1,
+            "path": "D:\\TTS\\development\\jquery\\src",
+            "code": {
+                "id": "astnode100001067",
+                "name": "Width",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Width",
+        "longname": "Width",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "D:\\TTS\\development\\jquery\\src\\ActionHandlers.js",
+            "D:\\TTS\\development\\jquery\\src\\Actions.js",
+            "D:\\TTS\\development\\jquery\\src\\Data.js",
+            "D:\\TTS\\development\\jquery\\src\\Height.js",
+            "D:\\TTS\\development\\jquery\\src\\index.js",
+            "D:\\TTS\\development\\jquery\\src\\Properties.js",
+            "D:\\TTS\\development\\jquery\\src\\Remove.js",
+            "D:\\TTS\\development\\jquery\\src\\Template.js",
+            "D:\\TTS\\development\\jquery\\src\\Value.js",
+            "D:\\TTS\\development\\jquery\\src\\ValueOf.js",
+            "D:\\TTS\\development\\jquery\\src\\Width.js"
+        ]
+    }
+]

@@ -9,6 +9,7 @@ let dataFn = $.fn.data
 $.fn.extend({
 
 	/** Data
+	* @memberof jQuery#
 	* @fires jQuery#data-change
 	*/
 	data: function (key, value) {
